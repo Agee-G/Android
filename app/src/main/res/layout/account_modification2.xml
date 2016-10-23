@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#fde857">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="设置密码"
+            android:textSize="22sp"
+            android:textColor="#000"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/bp_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="返回"
+            android:background="#fde857"
+            android:textSize="18sp"
+            android:textColor="#000" />
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/login_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp">
+
+        <FrameLayout
+            android:id="@+id/username_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:gravity="center">
+
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:inputType="number"
+                android:paddingRight="60dp"
+                android:maxLength="20"
+                android:paddingLeft="70dp"
+                android:textSize="15dp"
+                android:hint="请输入手机号">
+            </EditText>
+
+            <TextView
+                android:id="@+id/contry_sn"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginTop="2.5dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+
+                android:text="设置密码"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/usercode_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/username_layout"
+            android:layout_marginTop="6dp"
+            android:gravity="center">
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:inputType="textPassword"
+                android:paddingRight="60dp"
+                android:paddingLeft="70dp"
+                android:hint="请输入验证码">
+            </EditText>
+
+            <TextView
+                android:id="@+id/contry_pass"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginTop="2.5dp"
+                android:gravity="center"
+                android:text="确定密码"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                />
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/usercode_layout"
+            android:layout_marginTop="30dp"
+            android:background="#fde857"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:text="完成"/>
+
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>

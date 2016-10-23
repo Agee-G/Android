@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#fde857">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="广告圈"
+                android:textSize="22sp"
+                android:textColor="#000"
+                android:layout_gravity="center"/>
+
+        </RelativeLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <FrameLayout
+
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:background="#fff"
+                android:layout_weight="1"
+                >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#fff"
+
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/first_image1"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/adversione"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="24dp"
+                    android:text="三只松鼠碧根果大礼包"
+                    android:textSize="18dp"
+                    android:textColor="#000"
+                    android:layout_toRightOf="@+id/first_image1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="45dp"
+                    android:text="有广告语，支持片头，时间30s"
+                    android:textSize="14dp"
+                    android:layout_toRightOf="@+id/first_image1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="105dp"
+                    android:text="价格￥200"
+                    android:textSize="18dp"
+                    android:textColor="#ff0000"
+                    android:layout_toRightOf="@+id/first_image1"/>
+            </RelativeLayout>
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#fff"
+                android:layout_marginTop="150dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/second_image2"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/adverisetwo"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="24dp"
+                    android:text="三只松鼠坚果大礼包"
+                    android:textSize="18dp"
+                    android:textColor="#000"
+                    android:layout_toRightOf="@+id/second_image2"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="45dp"
+                    android:text="无广告语，支持片头支持片尾，时间23s"
+                    android:textSize="14dp"
+                    android:layout_toRightOf="@+id/second_image2"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="100dp"
+                    android:text="价格￥220"
+                    android:textSize="18dp"
+                    android:textColor="#ff0000"
+                    android:layout_toRightOf="@+id/second_image2"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#fff"
+                android:layout_marginTop="300dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/third_image3"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/advertisethird"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="31dp"
+                    android:text="付小费美图合集"
+                    android:textSize="18dp"
+                    android:textColor="#000"
+                    android:layout_toRightOf="@+id/third_image3"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="53dp"
+                    android:text="有广告语，支持片头支持片尾"
+                    android:textSize="14dp"
+                    android:layout_toRightOf="@+id/third_image3"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="96dp"
+                    android:text="价格￥860"
+                    android:textSize="18dp"
+                    android:textColor="#ff0000"
+                    android:layout_toRightOf="@+id/third_image3"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#fff"
+                android:layout_marginTop="450dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/fouth_image4"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/advertisefouth"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="17dp"
+                    android:text="护肤品"
+                    android:textSize="18dp"
+                    android:textColor="#000"
+                    android:layout_toRightOf="@+id/fouth_image4"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="40dp"
+                    android:text="无广告语，支持片头支持片尾，时间23s"
+                    android:textSize="14dp"
+                    android:layout_toRightOf="@+id/fouth_image4"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="110dp"
+                    android:text="价格￥670"
+                    android:textSize="18dp"
+                    android:textColor="#ff0000"
+                    android:layout_toRightOf="@+id/fouth_image4"/>
+
+
+            </RelativeLayout>
+            </FrameLayout>
+
+
+        </ScrollView>
+
+
+</LinearLayout>

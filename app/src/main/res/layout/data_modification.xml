@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#fde857">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="资料修改"
+            android:textSize="22sp"
+            android:textColor="#000"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/bp_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消"
+            android:background="#fde857"
+            android:textSize="18sp"
+            android:textColor="#000" />
+        <Button
+            android:id="@+id/bp_great"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="完成"
+            android:background="#fde857"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_alignParentRight="true"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/login_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp">
+
+        <FrameLayout
+            android:id="@+id/username_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:gravity="center">
+
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:maxLength="20"
+                >
+            </EditText>
+
+            <TextView
+                android:id="@+id/contry_sn"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+
+                android:text="名称:"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/usercode_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/username_layout"
+            android:layout_marginTop="6dp"
+           >
+            <TextView
+                android:id="@+id/password"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical|left"
+                android:paddingRight="60dp"
+                android:paddingLeft="50dp"
+                android:text="联系方式"
+                android:textColor="#000"
+                android:textSize="18sp"
+               >
+            </TextView>
+
+            <TextView
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginTop="1dp"
+                android:gravity="center"
+                android:background="@drawable/lian"
+
+                />
+
+        </FrameLayout>
+        <FrameLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="168dp"
+            android:gravity="center">
+
+
+            <EditText
+
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:inputType="number"
+                android:paddingRight="60dp"
+                >
+            </EditText>
+
+            <TextView
+
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+
+                android:text="手机号码:"/>
+
+
+        </FrameLayout>
+        <FrameLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="223dp"
+            android:gravity="center">
+
+
+            <EditText
+
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:inputType="number"
+                android:paddingRight="60dp"
+                >
+            </EditText>
+
+            <TextView
+
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+
+                android:text="邮箱地址:"/>
+
+
+        </FrameLayout>
+        <FrameLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="277dp"
+            android:gravity="center">
+
+
+            <EditText
+
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:inputType="number"
+                android:paddingRight="60dp"
+                >
+            </EditText>
+
+            <TextView
+
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+
+                android:text="真实姓名:"/>
+
+
+        </FrameLayout>
+
+        <FrameLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/username_layout"
+            android:layout_marginTop="230dp"
+            >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical|left"
+                android:paddingRight="60dp"
+                android:paddingLeft="50dp"
+                android:text="其他填写"
+                android:textColor="#000"
+                android:textSize="18sp"
+                >
+            </TextView>
+
+            <TextView
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginTop="1dp"
+                android:gravity="center"
+                android:background="@drawable/yu"
+
+                />
+
+        </FrameLayout>
+        <FrameLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="397dp"
+            android:gravity="center">
+
+
+            <EditText
+
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:inputType="number"
+                android:paddingRight="60dp"
+                >
+            </EditText>
+
+            <TextView
+
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+
+                android:text="常驻分类:"/>
+
+
+        </FrameLayout>
+        <FrameLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:gravity="center">
+
+
+            <EditText
+
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:inputType="number"
+                android:paddingRight="60dp"
+                >
+            </EditText>
+
+            <TextView
+
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:text="备注:"/>
+
+
+        </FrameLayout>
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

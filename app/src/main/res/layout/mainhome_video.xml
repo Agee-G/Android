@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#fde857">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="视频圈"
+            android:textSize="22sp"
+            android:textColor="#000"
+            android:layout_gravity="center"/>
+
+    </RelativeLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:layout_weight="1"
+        >
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#fff"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/first_video1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/videoone"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="24dp"
+                android:text="PPAP"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_toRightOf="@+id/first_video1"
+                android:id="@+id/textView" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="105dp"
+                android:text="价格￥120"
+                android:textSize="18dp"
+                android:textColor="#ff0000"
+                android:layout_toRightOf="@+id/first_video1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="BEJ48"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_alignTop="@+id/textView"
+                android:layout_toRightOf="@+id/first_video1"
+                android:layout_toEndOf="@+id/first_video1"
+                android:layout_marginLeft="44dp"
+                android:layout_marginStart="44dp" />
+        </RelativeLayout>
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#fff"
+            android:layout_marginTop="156dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/second_video2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/videotwo"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:text="BEJ48"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_toRightOf="@+id/second_video2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="120dp"
+                android:text="价格￥999"
+                android:textSize="18dp"
+                android:textColor="#ff0000"
+                android:layout_toRightOf="@+id/second_video2"/>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#fff"
+            android:layout_marginTop="320dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/third_video3"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/videothied"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:text="付小费"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_toRightOf="@+id/third_video3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="120dp"
+                android:text="价格￥999"
+                android:textSize="18dp"
+                android:textColor="#ff0000"
+                android:layout_toRightOf="@+id/third_video3"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#fff"
+            android:layout_marginTop="480dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/fouth_video4"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/videofouth"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:text="朕的江山"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_toRightOf="@+id/fouth_video4"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="120dp"
+                android:text="价格￥999"
+                android:textSize="18dp"
+                android:textColor="#ff0000"
+                android:layout_toRightOf="@+id/fouth_video4"/>
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#fff"
+            android:layout_marginTop="650dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/five_video5"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/videosix"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:text="小北"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_toRightOf="@+id/five_video5"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="120dp"
+                android:text="无价之宝"
+                android:textSize="18dp"
+                android:textColor="#ff0000"
+                android:layout_toRightOf="@+id/five_video5"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#fff"
+            android:layout_marginTop="820dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/sixe_video6"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/videoseven"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:text="任天堂NS"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_toRightOf="@+id/sixe_video6"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="120dp"
+                android:text="价格￥2799"
+                android:textSize="18dp"
+                android:textColor="#ff0000"
+                android:layout_toRightOf="@+id/sixe_video6"/>
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </FrameLayout>
+
+
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
